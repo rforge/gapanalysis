@@ -1,0 +1,2 @@
+importFrom("raster", raster)
+export(extractStoreValues, extractBackground, pointDensity, evDistance, gapAreas)

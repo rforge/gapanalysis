@@ -1,0 +1,11 @@
+Package: GapAnalysis
+Type: Package
+Title: Ecogeographic Gap Analysis
+Version: 0.1
+Date: 2009-12-29
+Depends: raster
+Author: Julian Ramirez & Jacob van Etten
+Maintainer: Julian Ramirez <dawnpatrolmustaine@gmail.com>
+Description: Package for analyzing conservation status of landraces
+License: GPL (>=3)
+LazyLoad: yes
