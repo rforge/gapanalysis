@@ -122,7 +122,7 @@ evDistance <- function(spamsurf, variables, ext='', acclist, smplfile, oper='min
 	filename(outraster) <- outfile
 	outraster <- clearValues(outraster)
 	
-	if (!canProcessInMemory(get(paste("var_", 1, sep="")), n=nlay+1)) {
+	if (!canProcessInMemory(get(paste("var_", 1, sep="")), n=nlay+20)) {
 		cat("\n", "Cannot process in memory, taking the long way", "\n")
 		pb <- pbCreate(nrow(rsstack), type='text', style=3)
 		
